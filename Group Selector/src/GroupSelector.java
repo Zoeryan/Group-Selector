@@ -38,7 +38,10 @@ public class GroupSelector
 
 //	ask user how many groups they want
 	System.out.println("How many groups would you like?");
-
+	Scanner keyboard = new Scanner(System.in);
+	int groups = keyboard.nextInt();
+	
+	
 //	deal out into groups
 
 //	sort by name
